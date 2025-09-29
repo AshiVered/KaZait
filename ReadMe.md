@@ -14,7 +14,10 @@ ffpeg - יש למקם קובץ exe בתיקיה.
 
 # קימפול
 
-pyinstaller --onefile --windowed --add-data "strings.json;." --add-data "explainDialog.txt;." --add-data "ffmpeg.exe;." KaZait_wx.py
+pyinstaller --onefile --windowed --add-data "strings.json;." --add-data "explainDialog.txt;." --add-data "ffmpeg.exe;." KaZait.py
+
+# הורדה
+קובץ exe זמין להורדה בדף הreleases
 
 ### הערה קטנה
 
